@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eceee1;
+    margin: 20px;
+    color: #111;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #e5e7dc;
+    font-size: 13px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Colors inspirats en la taula d'exemple */
+.capcalera-principal {
+    background-color: #36a9e1;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.subcapcalera-blava {
+    background-color: #54b2d4;
+    font-weight: bold;
+}
+
+.franja-groga {
+    background-color: #ffc000;
+    font-weight: bold;
+}
+
+.etiqueta-groga {
+    background-color: #fff282;
+    font-weight: bold;
+    text-align: left;
+}
+
+.hora {
+    background-color: #54b2d4;
+    font-weight: bold;
+    width: 110px;
+}
+
+.descans {
+    background-color: #ffd966;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Colors per als dies (estil Aula del Futuro) */
+.dilluns {
+    background-color: #ff4fd8;
+    font-weight: bold;
+}
+
+.dimarts {
+    background-color: #b4a7d6;
+    font-weight: bold;
+}
+
+.dimecres {
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dijous {
+    background-color: #92d050;
+    font-weight: bold;
+}
+
+.divendres {
+    background-color: #ffff00;
+    font-weight: bold;
+}
+
+.cap-setmana {
+    background-color: #ed7d31;
+    font-weight: bold;
+}
+
+/* Colors per tipus d'activitat */
+.classe {
+    background-color: #d9edf7;
+}
+
+.estudi {
+    background-color: #e2efda;
+}
+
+.oci {
+    background-color: #fce4d6;
+}
