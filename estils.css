@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dfdfd3;
+    color: #111111;
+}
+
+.hoja {
+    max-width: 920px;
+    margin: 0 auto;
+    background-color: #ecece1;
+    padding: 18px 22px 32px 22px;
+}
+
+h1 {
+    margin: 0 0 16px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 11.5px;
+}
+
+th, td {
+    border: 1px solid #6e6e6e;
+    padding: 5px 6px;
+    vertical-align: middle;
+}
+
+/* Cabeceras azules */
+.barra-azul-1 {
+    background-color: #36a9e1;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+}
+
+.celda-azul-2 {
+    background-color: #54b2d4;
+    font-weight: bold;
+    text-align: left;
+    width: 18%;
+}
+
+.barra-azul-3 {
+    background-color: #4bacc6;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+}
+
+.cabecera-tabla-inferior th {
+    background-color: #4bacc6;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+/* Franjas y etiquetas amarillas */
+.barra-amarilla {
+    background-color: #ffc000;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 6px;
+}
+
+.barra-amarilla-izq {
+    background-color: #ffc000;
+    font-weight: bold;
+    text-align: left;
+}
+
+.etiqueta-amarilla {
+    background-color: #fff275;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Subtabla de Recursos materiales */
+.contenedor-subtabla {
+    padding: 0;
+}
+
+.subtabla-recursos {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.subtabla-recursos td {
+    border-top: none;
+    border-bottom: none;
+    height: 38px;
+}
+
+.subtabla-recursos td:first-child {
+    border-left: none;
+}
+
+.subtabla-recursos td:last-child {
+    border-right: none;
+}
+
+.rec-etiq-1 {
+    width: 10%;
+    background-color: #fff275;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rec-vacio-1 {
+    width: 23%;
+    background-color: #e6e6dc;
+}
+
+.rec-etiq-2 {
+    width: 19%;
+    background-color: #fff275;
+    font-weight: bold;
+    text-align: left;
+    font-size: 10px;
+    line-height: 1.2;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.rec-vacio-2 {
+    width: 21%;
+    background-color: #e6e6dc;
+}
+
+.rec-etiq-3 {
+    width: 7%;
+    background-color: #fff275;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rec-vacio-3 {
+    width: 20%;
+    background-color: #e6e6dc;
+}
+
+.fila-casillas {
+    background-color: #fff275;
+    padding: 4px 5px;
+    text-align: left;
+}
+
+.item-amarillo {
+    display: inline-block;
+    background-color: #fff275;
+    font-weight: bold;
+    padding: 2px 3px;
+    font-size: 10.5px;
+}
+
+.casilla {
+    display: inline-block;
+    width: 21px;
+    height: 17px;
+    vertical-align: middle;
+    background-color: #e6e6dc;
+    border: 1px solid #8a8a8a;
+    margin-right: 3px;
+}
+
+/* 6 columnas de colores */
+.col-magenta {
+    background-color: #ff4fd8;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 4px;
+}
+
+.col-lila {
+    background-color: #b4a7d6;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 4px;
+}
+
+.col-rojo {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 4px;
+}
+
+.col-verde {
+    background-color: #92d050;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 4px;
+}
+
+.col-amarillo {
+    background-color: #ffff00;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 4px;
+}
+
+.col-naranja {
+    background-color: #ed7d31;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 4px;
+}
+
+/* Anchos de columnas de la tabla inferior */
+.col-num { width: 5%; }
+.col-fecha { width: 8%; }
+.col-desc { width: 45%; }
+.col-rol { width: 12%; }
+.col-papel { width: 14%; }
+.col-adap { width: 16%; }
+
+/* Celdas vacías y alturas alargadas */
+.celda-vacia {
+    background-color: #e6e6dc;
+}
+
+.fila-mrcdd {
+    height: 36px;
+}
+
+.fila-otra {
+    height: 28px;
+}
+
+.alto-zona {
+    height: 68px;
+}
+
+.fila-vacia {
+    height: 30px;
+}
